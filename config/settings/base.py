@@ -99,7 +99,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 DATABASES = {
-    'default': env.db('DATABASE_URL', default='postgres:///meetupdb'),
+    'default': env.db('DATABASE_URL', default='postgres:///creativedb'),
 }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
