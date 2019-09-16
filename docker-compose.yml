@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  postgres-server:
+    image: 'postgres:9.6'
+    ports: unless-stopped
+  
+  django-server:
+    build: .
+    restart: unless-stopped
+    ports:
+      - '8000:8000'
