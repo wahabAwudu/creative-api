@@ -20,12 +20,16 @@ class MeetupModelSerializer(ModelSerializer):
             'user',
             'title',
             'description',
+            'date',
+            'time',
+            'venue',
             'questions',
             'created_at',
             'updated_at',
         ]
         read_only_fields = (
             'id',
+            'time',
             'created_at',
             'updated_at',
         )
