@@ -1,11 +1,19 @@
-# Creative Projects API
-This is a Variety of Projects built with Django v1.11.10 with drf api style.
-* how to setup
-* create a virtual environment and activate it
-* install the requirements of the project by running *pip install -r requirements/local.txt*
-* create a postgresql database by running *create database creativedb;*
-* run *python manage.py migrate* to migrate the database models.
-* You can create a new superuser by *python manage.py createsuperuser* and follow the prompt
-* now, collect all the project's static files into the staticfiles directory by *python manage.py collectstatic*
-* start the development server by *python manage.py runserver*
-* Cody Regards
+A Wide range of Creative Ideas based on Django, Django Rest Framework, and PosgreSQL.
+
+# Setup Project
+
+## Installation
+
+- install and activate your virtual environment.
+- create a postgresql database called 'creativedb'.
+- install requirements: pip install -r requirements.txt
+- migrate database: python manage.py migrate
+- collect static files: python manage.py collectstatic
+
+## Run Project
+
+### Run project for development environment 
+
+```
+python manage.py runserver
+```
